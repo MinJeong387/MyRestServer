@@ -107,6 +107,7 @@ public class TodoApiController {
 			return ResponseEntity.notFound().build();
 		}
 		todoRepository.deleteById(id);
+		//	<Void>는 응답 객체의 본문이 없음을 명시
 		return ResponseEntity.ok().<Void>build();
 	}
 }
