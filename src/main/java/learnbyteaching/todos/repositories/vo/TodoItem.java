@@ -14,6 +14,5 @@ import lombok.ToString;
 public class TodoItem {
 	private Long id;
 	private String title;
-	private boolean completed;
-
+	private boolean completed;	
 }
