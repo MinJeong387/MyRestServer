@@ -17,4 +17,5 @@ public class GlobalCorsConfig implements WebMvcConfigurer {
 			.allowedHeaders("*")	//	모든 헤더 허용
 			.maxAge(3600);	//	CORS 캐싱 허용 시간 (초단위)
 	}
+
 }
